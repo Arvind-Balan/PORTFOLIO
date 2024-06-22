@@ -30,12 +30,12 @@ import { TypeAnimation } from "react-type-animation";
 import { SparklesView } from "../Ui/SparklesView";
 
 const socialLinks = [
-  { icon: FiGithub, link: "https://github.com/pranavpremanand" },
-  { icon: FiLinkedin, link: "https://linkedin.com/in/pranavpremanand" },
-  { icon: FiMail, link: "mailto:mpranavprem@gmail.com" },
-  { icon: FiPhone, link: "tel:+919633063113" },
-  // { icon: FiInstagram, link: "https://instagram.com/pranav_premanand" },
-  { icon: FaWhatsapp, link: "https://wa.me/+919633063113" },
+  { icon: FiGithub, link: "https://github.com/Arvind-Balan" },
+  { icon: FiLinkedin, link: "https://www.linkedin.com/in/aravind-balan/" },
+  { icon: FiMail, link: "mailto:aravindbalanv1997@gmail.com" },
+  { icon: FiPhone, link: "tel:+918113916845" },
+  { icon: FiInstagram, link: "https:/ / instagram.com / aravind_balan_" },
+  { icon: FaWhatsapp, link: "https://wa.me/+918113916845" },
 ];
 
 const Banner = () => {
@@ -45,7 +45,7 @@ const Banner = () => {
         id="home"
         className="min-h-[95vh] z-10 sm:min-h-[100vh] flex items-center justify-center
         px-7 py-16"
-        // bg-[#f9f9f9]
+      // bg-[#f9f9f9]
       >
         <div className="max-w-[70rem]">
           <div className="flex flex-col-reverse lg:flex-row-reverse justify-center items-center gap-10 lg:gap-20">
@@ -55,15 +55,15 @@ const Banner = () => {
                 <TypeAnimation
                   sequence={[
                     "Software Developer",
-                    4000,
+                    3000,
                     "Full Stack Developer",
-                    4000,
+                    3000,
+                    "Software Engineer",
+                    3000,
                     "MERN Stack Developer",
-                    4000,
+                    3000,
 
-                    // () => {
-                    //    console.log('Sequence completed');
-                    // },
+
                   ]}
                   wrapper="span"
                   cursor={true}
@@ -83,7 +83,7 @@ const Banner = () => {
                 />
               </span>
               <p className="text-[#555] text-center lg:text-start">
-                Hi, I'm Pranav. A passionate Software Developer based in Kerala,
+                Hi, I'm Aravind Balan. A passionate Software Developer based in Kerala,
                 India.📍
                 <img
                   className="ml-1 -mt-1 inline w-5"
@@ -121,7 +121,7 @@ const Banner = () => {
             className="w-[22rem] object-cover aspect-square rounded-full"
           /> */}
             <div
-              className="hero-img w-[19rem] h-[19rem] sm:w-[25rem] sm:h-[25rem] grayscale-[70%]"
+              className="hero-img w-[19rem] h-[19rem] sm:w-[25rem] sm:h-[25rem]"
               style={{ backgroundImage: `url(${myImg})` }}
               loading="lazy"
               data-aos="fade-right"

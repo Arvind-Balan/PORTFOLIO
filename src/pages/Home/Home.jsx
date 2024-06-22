@@ -13,7 +13,7 @@ const Contact = React.lazy(() => import("../../components/Contact/Contact"));
 const Home = () => {
   return (
     <Suspense fallback={<MainLoading />}>
-      <Link to="https://wa.me/+919633063113">
+      <Link to="https://wa.me/+918113916845">
         <img
           src={WaIcon}
           alt=""
