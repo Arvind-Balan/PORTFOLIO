@@ -14,7 +14,7 @@ const About = () => {
         <div
           className="w-fit relative mx-auto mb-3 sm:mb-0"
           data-aos="fade-right"
-          // data-aos-offset="-150"
+        // data-aos-offset="-150"
         >
           <img
             src={img}
@@ -47,7 +47,7 @@ const About = () => {
         <div
           className="flex flex-col items-center lg:items-start gap-4"
           data-aos="fade-left"
-          // data-aos-offset="-150"
+        // data-aos-offset="-150"
         >
           <h1 className="text-xl uppercase text-[#0284c7] text-center font-semibold">
             about me
@@ -62,10 +62,7 @@ const About = () => {
             />
           </h2>
           <p className="text-[#555] text-center lg:text-start">
-            Hey, my name is Pranav, and I'm a Software Web Developer. I craft
-            beautiful, and efficient web applications that are both
-            user-friendly and responsive. I specialize in working with React,
-            Next.js, Node.js, Express.js and MongoDB.
+            As a dedicated and innovative Full Stack Developer with nearly two years of experience, I specialize in building and enhancing web applications. Currently, I am part of a dynamic team at Accel, focusing on delivering high-quality software solutions that drive business efficiency and growth. My role involves significant contributions to an ERP (Enterprise Resource Planning) application, utilizing React with TypeScript and JSX for the frontend, .NET Core Web API for the backend, and SQL Server for database management.
             <br />
             My expertise in these technologies allows me to build web
             applications from scratch and integrate different functionalities

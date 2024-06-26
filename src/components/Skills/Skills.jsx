@@ -80,12 +80,12 @@ const skills = [
     title: "Bootstrap",
     style: "shadow-purple-400",
   },
-  // {
-  //   id: 16,
-  //   src: typescript,
-  //   title: "TypeScript",
-  //   style: "shadow-blue-400",
-  // },
+  {
+    id: 16,
+    src: typescript,
+    title: "TypeScript",
+    style: "shadow-blue-400",
+  },
   {
     id: 4,
     src: node,
@@ -160,9 +160,8 @@ const Skills = () => {
           {skills.map(({ id, src, title, style }, i) => (
             <div
               key={id}
-              className={`shadow-lg md:hover:scale-110 z-10 grid place-content-center bg-[#f9f9f9] h-[7.3rem] sm:h-[8.2rem] w-auto cursor-pointer duration-500 p-2 rounded-lg ${style} ${
-                scaleItem === i && "scale-110"
-              }`}
+              className={`shadow-lg md:hover:scale-110 z-10 grid place-content-center bg-[#f9f9f9] h-[7.3rem] sm:h-[8.2rem] w-auto cursor-pointer duration-500 p-2 rounded-lg ${style} ${scaleItem === i && "scale-110"
+                }`}
             >
               <img
                 src={src}

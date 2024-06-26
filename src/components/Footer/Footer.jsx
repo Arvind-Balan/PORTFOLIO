@@ -7,15 +7,15 @@ import { Link } from "react-router-dom/dist";
 const socialLinks = [
   {
     icon: <FaLinkedinIn />,
-    url: "https://linkedin.com/in/pranavpremanand",
+    url: "https://www.linkedin.com/in/aravind-balan/",
   },
   {
     icon: <TbBrandGithubFilled />,
-    url: "https://github.com/pranavpremanand",
+    url: "https://github.com/Arvind-Balan?tab=repositories",
   },
   {
     icon: <RiWhatsappFill />,
-    url: "https://wa.me/+919633063113",
+    url: "https://wa.me/+918113916845",
   },
 ];
 
