@@ -25,7 +25,6 @@ import nodeImg from "../../assets/images/node.png";
 import expressImg from "../../assets/images/expressjs.png";
 import mongoDbImg from "../../assets/images/mongodb.png";
 import indianFlag from "../../assets/images/indian-flag.png";
-import CV from "../../assets/files/Pranav_M_FullStackDeveloper_CV.pdf";
 import { TypeAnimation } from "react-type-animation";
 import { SparklesView } from "../Ui/SparklesView";
 
